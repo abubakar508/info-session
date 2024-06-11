@@ -9,7 +9,7 @@ export default function FlipClock() {
 
     useEffect(() => {
         const now = new Date();
-        const targetDate = new Date('2024-06-12T07:00:00');
+        const targetDate = new Date('2024-06-13T10:00:00');
 
         const timeDifference: any = targetDate.getTime() - now.getTime();
 
